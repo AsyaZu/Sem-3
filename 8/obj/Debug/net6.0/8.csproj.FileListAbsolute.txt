@@ -1,0 +1,16 @@
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.GlobalUsings.g.cs
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.csproj.AssemblyReference.cache
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.AssemblyInfoInputs.cache
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.AssemblyInfo.cs
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Desktop\Sem3\8\bin\Debug\net6.0\8.exe
+C:\Users\Александр\Desktop\Sem3\8\bin\Debug\net6.0\8.deps.json
+C:\Users\Александр\Desktop\Sem3\8\bin\Debug\net6.0\8.runtimeconfig.json
+C:\Users\Александр\Desktop\Sem3\8\bin\Debug\net6.0\8.dll
+C:\Users\Александр\Desktop\Sem3\8\bin\Debug\net6.0\ref\8.dll
+C:\Users\Александр\Desktop\Sem3\8\bin\Debug\net6.0\8.pdb
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.dll
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\ref\8.dll
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.pdb
+C:\Users\Александр\Desktop\Sem3\8\obj\Debug\net6.0\8.genruntimeconfig.cache
