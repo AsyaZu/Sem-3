@@ -1,41 +1,38 @@
 ﻿//  3.По заданному номеру дня недели вывести его название
 
-void Day (int number)
+string Day (int number)
 {
     if (number == 1)
     {
-        Console.WriteLine("понедельник");
+        return ("понедельник");
     }
-
     else if (number == 2)
     {
-        Console.WriteLine("вторник");
+        return ("вторник");
     }
-
     else if (number == 3)
     {
-        Console.WriteLine("среда");
+        return ("среда");
     }
-
     else if (number == 4)
     {
-        Console.WriteLine("четверг");
+        return ("четверг");
     }
     else if (number == 5)
     {
-        Console.WriteLine("пятница");
+        return ("пятница");
     }
     else if (number == 6)
     {
-        Console.WriteLine("суббота");
+        return ("суббота");
     }
     else if (number == 7)
     {
-        Console.WriteLine("воскресенье");
+        return ("воскресенье");
     }
     else
     {
-        Console.WriteLine("такого дня недели не существует");
+        return ("такого дня недели не существует");
     }
 }
-    Day(7);
+    Console.WriteLine(Day(9));
