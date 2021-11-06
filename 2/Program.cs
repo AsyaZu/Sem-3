@@ -1,22 +1,20 @@
 ﻿ //2. Даны два числа. Показать большее и меньшее число
 
-void a(int a, int b)
+string a(int a, int b)
 {
     if (a > b)
     {
-        Console.WriteLine($"большее число = {a}");
-        Console.WriteLine($"меньшее число = {b}");
+        return ($"большее число = {a}, меньшее число = {b}");
     }
     else if (a < b)
     {
-        Console.WriteLine($"большее число = {b}");
-        Console.WriteLine($"меньшее число = {a}");
+        return ($"большее число = {b}, меньшее число = {a}");
     }
     else
     {
-        Console.WriteLine("числа равны");
+        return ("числа равны");
     }
 
 }
 
-a(7, 7);
+Console.WriteLine(a(9, 8));
