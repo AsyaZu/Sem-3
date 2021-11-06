@@ -1,16 +1,15 @@
 ﻿//6. Выяснить является ли число чётным
 
-void FindEven (int number)
+string FindEven (int number)
 {
     if (number % 2 == 0)
     {
-        Console.WriteLine("число является четным");
+        return ("число является четным");
     }
     else
     {
-        Console.WriteLine("число является нечетным");
+        return ("число является нечетным");
     }
-
 }
 
-FindEven(35);
+Console.WriteLine(FindEven(32));
