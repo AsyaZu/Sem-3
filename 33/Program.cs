@@ -2,42 +2,56 @@
 
 int[] array = new int [12];
 
-string PrintArray (int[] array)
- {
-    string res = string.Empty;
+void FillArray (int[] array)
+{
     int length = array.Length;
      for (int i = 0; i < length; i++)
      {
          array[i] = new Random().Next(0, 10);
      }
+}
 
-     for (int i = 0; i < length; i++)
+string PrintArray (int[] array)
+{
+     string res = string.Empty;
+     int count = array.Length;
+     for (int i = 0; i < count; i++)
      {
         res += $"{array[i]}  ";
      }
     return res;
  }
 
+FillArray(array);
 Console.WriteLine(PrintArray(array));
  
- string PrintSum (int[] array)
+ string PrintSumP (int[] array)
  {
     int sumP = 0;
-    int sumM = 0;
     int length = array.Length;
-    
-     for (int i = 0; i < length; i++)
+    for (int i = 0; i < length; i++)
      {
         if (array[i] > 0)
         {
             sumP += array[i];
         }
-        else
+     }
+    return sumP.ToString();
+ }
+
+string PrintSumM (int[] array)
+{
+    int sumM = 0;
+    int length = array.Length;
+    for (int i = 0; i < length; i++)
+     {
+        if (array[i] < 0)
         {
             sumM += array[i];
         }
      }
-    return sumP.ToString() + " " + sumM.ToString();
- }
+    return sumM.ToString();
+}
 
-Console.WriteLine(PrintSum(array));
+Console.WriteLine(PrintSumP(array));
+Console.WriteLine(PrintSumM(array));
