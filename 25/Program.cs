@@ -1,11 +1,24 @@
 ﻿// Найти сумму чисел от 1 до А
-int Sum (int A)
+//double Sum(int A)
+//{
+//    double sum = 0;
+//    for (int n = 1; n <= A; n++)
+//    {
+//        sum = n + sum;
+//    }
+//    return sum;
+//}
+
+//int n = 1_000_000_000;
+//DateTime dt = DateTime.Now;
+//Console.WriteLine(Sum(n));
+//Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
+
+int Sum2(int a)
 {
-    int sum = 0;
-    for (int n = 1; n <= A; n++)
-    {
-        sum = n + sum;
-    }
-    return sum;
+    return (a * (a + 1)) / 2;
 }
-Console.WriteLine(Sum(50));
+int n = 1_000_000_000;
+DateTime dt = DateTime.Now;
+Console.WriteLine(Sum2(n));
+Console.WriteLine((DateTime.Now - dt).TotalMilliseconds);
