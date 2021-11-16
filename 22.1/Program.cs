@@ -11,7 +11,7 @@
 
 double FindH2 ((int x, int y) a, (int x, int y) b)
 {
-    int legX = b.x -a.x;
+    int legX = b.x - a.x;
     int legY = b.y - a.y;
     double result = Math.Sqrt(Math.Pow(legX, 2) + Math.Pow(legY, 2));
     return result;
