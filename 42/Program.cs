@@ -1,4 +1,5 @@
 ﻿// Определить сколько чисел больше 0 введено с клавиатуры
+int Parse 
 
 Console.WriteLine("Введите числа");
 int[] array = Console.ReadLine().Split(' ').Select(x=>int.Parse(x)).ToArray();
