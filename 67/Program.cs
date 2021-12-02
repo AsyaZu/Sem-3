@@ -2,11 +2,7 @@
 
 string Numbers (int N)
 {
-    string res = string.Empty;
-    for (int n = 1; n <= N; n++)
-    {
-        res = $"{Numbers(n - 1) + n} ";
-    }
-    return res;
+    if (N == 1) return $"{1} ";
+    return $"{Numbers(N - 1) + N} ";
 }
 Console.WriteLine(Numbers(10));
