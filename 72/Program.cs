@@ -1,10 +1,9 @@
-﻿// Написать программу вычисления функции Аккермана
+﻿// Написать программу возведения числа А в целую стень B
 
-int Ackermann(int m, int n)
+int Exponentiation(int A, int B)
 {
-    if (m == 0) return n + 1;
-    if (n == 0) return Ackermann(m - 1, 1);
-    return Ackermann(m - 1, Ackermann(m, n - 1));
+    if (B == 0) return 1;
+    return A * Exponentiation(A, B - 1);
 }
 
-Console.WriteLine(Ackermann(1, 0));
+Console.WriteLine(Exponentiation(11, 2));
