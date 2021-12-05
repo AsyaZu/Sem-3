@@ -1,8 +1,8 @@
-﻿// Показать натуральные числа от N до 1, N задано
+﻿// Показать натуральные числа от M до N, N и M заданы
 
-string Numbers (int N)
+string Numbers (int M, int N)
 {
-    if (N == 1) return $" {1}";
-    return $" {N + Numbers(N - 1)}";
+    if (M == N) return $"{N} ";
+    return $"{Numbers(M, N - 1) + N} ";;
 }
-Console.WriteLine(Numbers(10));
+Console.WriteLine(Numbers(-10, 10));
