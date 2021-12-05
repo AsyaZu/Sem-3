@@ -1,7 +1,10 @@
-﻿// Найти сумму цифр числа
-int Sum(int number)
+﻿// Написать программу вычисления функции Аккермана
+
+int Ackermann(int m, int n)
 {
-    if (number == 0) return 0;
-    return number % 10 + Sum(number / 10);
+    if (m == 0) return n + 1;
+    if (n == 0) return Ackermann(m - 1, 1);
+    return Ackermann(m - 1, Ackermann(m, n - 1));
 }
-Console.WriteLine(Sum(104));
+
+Console.WriteLine(Ackermann(1, 0));
