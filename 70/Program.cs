@@ -1,9 +1,7 @@
-﻿// Найти сумму элементов от M до N, N и M задан
-
-int Sum(int M, int N)
+﻿// Найти сумму цифр числа
+int Sum(int number)
 {
-    if (M == N) return N;
-    return M + Sum(M+1, N);
+    if (number == 0) return 0;
+    return number % 10 + Sum(number / 10);
 }
-Console.WriteLine(Sum(2, 4));
-
+Console.WriteLine(Sum(104));
